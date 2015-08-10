@@ -11,15 +11,15 @@
 brew install git
 
 # Configure git identity, aliases, and other settings.
-git config --global user.name "Dalton Hubble"
-git config --global user.email "dghubble@gmail.com"
+git config --global user.name "Emil Lerch"
+git config --global user.email "emil@lerch.org"
 git config --global alias.co checkout
 git config --global alias.st status
 git config --global core.editor "subl -w"
 git config --list
 
 # Install the Github Application
-brew cask install github
+#brew cask install github
 
 
 
