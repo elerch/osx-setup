@@ -43,6 +43,7 @@ brew cask install transmission     # bittorrent client
 ###############################################################################
 brew cask install moom             # window manager
 brew cask install clipmenu         # clipboard manager
+brew cask install iterm2           # replacement terminal
 
 
 
