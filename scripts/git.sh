@@ -21,6 +21,8 @@ git config --list
 # Install the Github Application
 #brew cask install github
 
+# Install Atlassian Sourcetree
+brew cask install sourcetree
 
 
 
