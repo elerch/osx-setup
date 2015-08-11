@@ -18,7 +18,7 @@ bash ${DIR}/scripts/browser.sh
 
 # Programming Environments
 bash ${DIR}/scripts/python.sh
-bash ${DIR}/scripts/python-extra.sh
+#bash ${DIR}/scripts/python-extra.sh
 bash ${DIR}/scripts/golang.sh
 bash ${DIR}/scripts/node.sh
 #bash ${DIR}/scripts/scala.sh
