@@ -13,3 +13,7 @@ brew cask install virtualbox
 ###############################################################################
 brew cask install vagrant
 # Vagrant environments are Virtualbox VMs, stored in ${HOME}/Virtualbox VMs/
+
+# Boot 2 Docker
+###############################################################################
+brew cask install boot2docker
