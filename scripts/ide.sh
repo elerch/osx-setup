@@ -7,8 +7,12 @@
 
 # Install Eclipse
 ###############################################################################
-brew cask install Eclipse
+#brew cask install Eclipse
 
 # Install Intellij Community Edition
 ###############################################################################
-brew cask install intellij-community
+#brew cask install intellij-community
+
+# Install VS Code
+###############################################################################
+brew cask install visual-studio-code
