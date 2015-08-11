@@ -16,4 +16,4 @@ brew cask install vagrant
 
 # Boot 2 Docker
 ###############################################################################
-brew cask install boot2docker
+brew install docker boot2docker
