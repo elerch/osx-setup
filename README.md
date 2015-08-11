@@ -14,6 +14,8 @@ First, I recommend you fork this project and tweak it in a few places (for examp
 3. bash ./bootstrap.sh
 4. Manually perform the tasks listed in `osx-setup/manual.txt`. 
 
+Also see: 
+http://shashikantjagtap.net/setup-local-web-development-environment-osx-yosemite-10-10-scratch/
 
 ## Pro Tips
 
