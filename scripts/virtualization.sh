@@ -17,3 +17,7 @@ brew cask install vagrant
 # Boot 2 Docker
 ###############################################################################
 brew install docker boot2docker
+
+# Kitematic UI for managing docker containers
+###############################################################################
+brew cask install kitematic
