@@ -20,11 +20,9 @@ brew update              # brew makes '/usr/local' a DVCS repo. Update it.
 # brew search partial-name
 # brew install/uninstall/upgrade package-name    # manage a brew Keg.
 # brew list                # list installed brew packages.
-# Install GNU core utilities (those that come with OS X are outdated)
-brew install coreutils
 
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew install findutils
+# Install GNU core utilities (those that come with OS X are outdated)
+brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
 
 # Install Bash 4
 brew install bash
