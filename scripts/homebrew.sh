@@ -20,6 +20,20 @@ brew update              # brew makes '/usr/local' a DVCS repo. Update it.
 # brew search partial-name
 # brew install/uninstall/upgrade package-name    # manage a brew Keg.
 # brew list                # list installed brew packages.
+# Install GNU core utilities (those that come with OS X are outdated)
+brew install coreutils
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew install findutils
+
+# Install Bash 4
+brew install bash
+
+# Install more recent versions of some OS X tools
+brew tap homebrew/dupes
+brew install homebrew/dupes/grep
+
+echo '$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH' >> ${HOME}/.bash_profile
 
 echo -e "\n# Add homebrew tab completion to bash." >> ${HOME}/.bashrc
 echo "source `brew --repository`/Library/Contributions/brew_bash_completion.sh" >> ${HOME}/.bashrc
