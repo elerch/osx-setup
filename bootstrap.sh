@@ -15,6 +15,7 @@ bash ${DIR}/scripts/shell.sh
 bash ${DIR}/scripts/git.sh
 bash ${DIR}/scripts/ide.sh
 bash ${DIR}/scripts/browser.sh
+bash ${DIR}/scripts/fonts.sh
 
 # Programming Environments
 bash ${DIR}/scripts/python.sh
