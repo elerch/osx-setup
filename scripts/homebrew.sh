@@ -1,9 +1,24 @@
 # OS X Homebrew (Package Manager) Setup
 
-# Assumes: 
-# + GCC installed via XCode comamnd line tools (https://connect.apple.com)
+##############################################################################################################
+### XCode Command Line Tools
+#      thx  https://github.com/alrra/dotfiles/blob/c2da74cc333/os/os_x/install_applications.sh#L39
 
-# Install latest Homebrew release (0.9.4 as of July 6, 2013)
+if [ $(xcode-select -p &> /dev/null; printf $?) -ne 0 ]; then
+    xcode-select --install &> /dev/null
+    # Wait until the XCode Command Line Tools are installed
+    while [ $(xcode-select -p &> /dev/null; printf $?) -ne 0 ]; do
+        sleep 5
+    done
+	xcode-select -p &> /dev/null
+	if [ $? -eq 0 ]; then
+        # Prompt user to agree to the terms of the Xcode license
+        # https://github.com/alrra/dotfiles/issues/10
+       sudo xcodebuild -license
+   fi
+fi
+
+# Install latest Homebrew release
 ###############################################################################
 # Homebrew placed under '/usr/local' so package installs don't require sudo.
 # Individual brew packages (kegs) isolated in their own directory under 
