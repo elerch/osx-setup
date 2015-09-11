@@ -33,3 +33,7 @@ bash ${DIR}/scripts/virtualization.sh
 
 # Extras
 bash ${DIR}/scripts/extra.sh
+
+# AWS
+bash ${DIR}/scripts/aws.sh
+

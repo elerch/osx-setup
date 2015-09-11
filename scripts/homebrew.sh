@@ -46,7 +46,7 @@ brew install bash
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
-echo '$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH' >> ${HOME}/.bash_profile
+echo 'PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH' >> ${HOME}/.bash_profile
 
 echo -e "\n# Add homebrew tab completion to bash." >> ${HOME}/.bashrc
 echo "source `brew --repository`/Library/Contributions/brew_bash_completion.sh" >> ${HOME}/.bashrc

@@ -27,8 +27,8 @@ brew cask install vlc
 # Menu Bar Utilities
 ###############################################################################
 #brew cask install bartender        # menu bar item controller
-brew cask install caffeine         # prevent sleep        
-brew cask install f-lux            # screen florescence at night   
+#brew cask install caffeine         # prevent sleep
+#brew cask install f-lux            # screen florescence at night
 #brew cask install google-notifier  # gmail/gcalendar notifications
 #brew cask install growler          # use growl for google-notifier notifications,
                                    # requires Growl from App store
@@ -37,13 +37,18 @@ brew cask install f-lux            # screen florescence at night
 ###############################################################################
 brew cask install wireshark        # packet sniffer
 #brew cask install gas-mask         # hosts file manager
-brew cask install transmission     # bittorrent client
+#brew cask install transmission     # bittorrent client
+brew cask install colloquy          # IRC client
 
 # Productivity
 ###############################################################################
-brew cask install moom             # window manager
+brew cask install spectacle        # window manager
 brew cask install clipmenu         # clipboard manager
 brew cask install iterm2           # replacement terminal
+
+brew cask install vienna           # RSS reader
+
+brew cask install xtrafinder       # Finder enhancements
 
 
 
