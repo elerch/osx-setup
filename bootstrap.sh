@@ -24,6 +24,7 @@ bash ${DIR}/scripts/golang.sh
 bash ${DIR}/scripts/node.sh
 #bash ${DIR}/scripts/scala.sh
 #bash ${DIR}/scripts/ruby.sh
+bash ${DIR}/scripts/dotnet.sh
 
 # File System
 #bash ${DIR}/scripts/dropbox.sh
