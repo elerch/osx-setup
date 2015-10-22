@@ -39,6 +39,7 @@ brew cask install wireshark        # packet sniffer
 #brew cask install gas-mask         # hosts file manager
 #brew cask install transmission     # bittorrent client
 brew cask install colloquy          # IRC client
+brew cask install mosh              # Mosh
 
 # Productivity
 ###############################################################################
