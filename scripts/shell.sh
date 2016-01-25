@@ -18,3 +18,7 @@ echo "export EDITOR='subl -w'" >> ${HOME}/.bash_profile
 ###############################################################################
 brew install git bash-completion
 # Installs bash completion scripts to /usr/local/etc/bash_completion.d/
+
+brew install zsh # must include /usr/local/bin/zsh to /etc/shells
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
