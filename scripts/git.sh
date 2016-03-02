@@ -24,5 +24,6 @@ git config --list
 # Install Atlassian Sourcetree
 #brew cask install sourcetree
 
-
+# Allows us to modify dotfiles
+brew install vcsh mr
 
