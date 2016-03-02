@@ -22,7 +22,7 @@ git config --list
 #brew cask install github
 
 # Install Atlassian Sourcetree
-brew cask install sourcetree
+#brew cask install sourcetree
 
 
 
