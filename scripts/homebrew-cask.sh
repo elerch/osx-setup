@@ -9,7 +9,7 @@
 # '/usr/local/'
 # brew-cask Casks (packages) stored in /opt/homebrew-cask/Caskroom and they are
 # symlinked to ${HOME}/Applications as *.app executables.
-brew tap phinze/homebrew-cask  # adds tap to '/usr/local/Library/Taps'
+brew tap caskroom/homebrew-cask  # adds tap to '/usr/local/Library/Taps'
 brew install brew-cask         # install the brew Keg.
 # brew upgrade brew-cask       # upgrade the brew-cask Keg from the phinze/homebrew-cask tap.
 # brew cask search partial-name
